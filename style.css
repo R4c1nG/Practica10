@@ -1,0 +1,104 @@
+body {
+	background-image: url(images/back.jpg);
+	font-family: 'Lato', helvetica, arial, sans-serif; 
+}
+
+.espacio {
+	clear: both;
+}
+
+p {
+	font-size: 1;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+h1 {
+	color: darkorange;
+	font-style: italic;
+	font-weight: bold;
+}
+
+h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.navegacion {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navegacion a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navegacion a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navegacion a.active {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+li {
+	text-align: left;
+}
+
+article {
+	text-align: center;
+}
+
+.partearriba {
+	padding: 25px 35px;
+	border-bottom: 2px solid darkgoldenrod;
+	background: #ededed;
+}
+
+#formatopagina {
+	width: 100%;
+	max-width: 950px;
+	background: #f3f3f3;
+	margin: 25px auto;
+}
+
+#nombre {
+	float: left;
+}
+
+#margenes {
+	padding: 0 40px;
+}
+
+#foto {
+	width: 16%;
+	float: left;
+	margin-right: 55px;
+}
+
+#foto img {
+	width: 100%;
+	height: auto;
+	border-radius: 15px;
+}
+
+#contacto {
+	float: right;
+}
+
+.secciones {
+	float: right;
+	width: 85%;
+}
+
+.keySkills {
+	column-count:3;
+	font-size: 1;
+}
